@@ -1,0 +1,51 @@
+
+.container{
+    width: 1370px;
+    margin: 0 auto;
+
+}
+ul,li{
+    list-style: none;
+}
+li{
+    font-size: 30px;
+    color: #fff;
+    padding: 5px;
+    background-color: cadetblue;
+    margin: 5px 0
+    
+}
+li:hover{
+    background-color: brown;
+}
+.div{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-color: #444;
+    height: 100vh;
+}
+input{
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+button{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color:darkblue;
+    margin:10px;
+    font-size: 20px;
+    color: gray;
+    transition: .4s;
+}
+button:hover{
+   background-color: greenyellow;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
